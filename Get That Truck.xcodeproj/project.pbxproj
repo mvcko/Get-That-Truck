@@ -335,7 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SE8YPVEUQQ;
+				DEVELOPMENT_TEAM = FAR9K63R5P;
 				INFOPLIST_FILE = "Get That Truck/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "maciejmazurek.Get-That-Truck";
@@ -350,7 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SE8YPVEUQQ;
+				DEVELOPMENT_TEAM = FAR9K63R5P;
 				INFOPLIST_FILE = "Get That Truck/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "maciejmazurek.Get-That-Truck";
