@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    @IBAction func nowyTurnus(_ sender: Any) {
+        performSegue(withIdentifier: "Segue1", sender: sender)
+    }
+    @IBAction func archiwumTurnusow(_ sender: Any) {
+        performSegue(withIdentifier: "Segue2", sender: sender)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
