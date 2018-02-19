@@ -105,23 +105,31 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="179.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kQ-Kv-EiY">
-                                                    <rect key="frame" x="15" y="11" width="345" height="158"/>
-                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kQ-Kv-EiY">
+                                                    <rect key="frame" x="15" y="11" width="225" height="158"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="highlightedColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VP3-gq-sxe">
+                                                    <rect key="frame" x="248" y="30" width="120" height="119"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="5kQ-Kv-EiY" firstAttribute="top" secondItem="xcw-7B-ZKd" secondAttribute="topMargin" id="1by-vS-Jqe"/>
-                                                <constraint firstItem="5kQ-Kv-EiY" firstAttribute="trailing" secondItem="xcw-7B-ZKd" secondAttribute="trailingMargin" id="3Pg-oT-gMt"/>
-                                                <constraint firstItem="5kQ-Kv-EiY" firstAttribute="leading" secondItem="xcw-7B-ZKd" secondAttribute="leadingMargin" id="aag-tA-aKV"/>
-                                                <constraint firstItem="5kQ-Kv-EiY" firstAttribute="bottom" secondItem="xcw-7B-ZKd" secondAttribute="bottomMargin" id="xDT-mf-LjJ"/>
+                                                <constraint firstItem="5kQ-Kv-EiY" firstAttribute="leading" secondItem="xcw-7B-ZKd" secondAttribute="leadingMargin" id="N6q-g7-oxG"/>
+                                                <constraint firstAttribute="trailing" secondItem="VP3-gq-sxe" secondAttribute="trailing" constant="7" id="ShO-am-mJ6"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="5kQ-Kv-EiY" secondAttribute="trailing" constant="120" id="She-OE-0Vd"/>
+                                                <constraint firstItem="VP3-gq-sxe" firstAttribute="top" secondItem="xcw-7B-ZKd" secondAttribute="top" constant="30" id="YUc-C7-k7k"/>
+                                                <constraint firstItem="5kQ-Kv-EiY" firstAttribute="top" secondItem="xcw-7B-ZKd" secondAttribute="topMargin" id="cGb-om-ezK"/>
+                                                <constraint firstItem="VP3-gq-sxe" firstAttribute="leading" secondItem="5kQ-Kv-EiY" secondAttribute="trailing" constant="8" id="gf0-l9-jc7"/>
+                                                <constraint firstItem="5kQ-Kv-EiY" firstAttribute="bottom" secondItem="xcw-7B-ZKd" secondAttribute="bottomMargin" id="iNA-pE-Arx"/>
+                                                <constraint firstAttribute="bottom" secondItem="VP3-gq-sxe" secondAttribute="bottom" constant="30" id="t8n-Qg-dKy"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.38039215686274508" green="0.49803921568627452" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
+                                            <outlet property="menuImage" destination="VP3-gq-sxe" id="3qf-z9-jwR"/>
                                             <outlet property="menuLabel" destination="5kQ-Kv-EiY" id="XwU-Y0-TAt"/>
                                         </connections>
                                     </tableViewCell>
@@ -146,7 +154,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqT-q9-6pr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="476" y="-547"/>
+            <point key="canvasLocation" x="476" y="-547.37631184407803"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Sws-fd-OGe">

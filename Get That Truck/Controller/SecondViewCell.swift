@@ -11,5 +11,6 @@ import UIKit
 class SecondViewCell: UITableViewCell {
     @IBOutlet weak var menuLabel: UILabel!
     
+    @IBOutlet weak var menuImage: UIImageView!
     
 }
